@@ -1,0 +1,26 @@
+//contract Functions
+
+
+let instance1 = await CV_Storage.new()
+instance1.addCV( "Adan Abbas", "Tall Boy", "5 years" , "Todays date", {from:accounts[0]})
+instance1.owner().then(value=>value.toString())
+instance1.viewCV().then(value=>value.toString())
+
+instance1.linkToPrev("0x7BA10bd02C1fF7b624Fe202C40C83Bc17E3a47D1", {from:accounts[0]});
+instance1.prevCV()
+
+let instance2 = await CV_Storage.new({from:accounts[1]})
+instance2.addCV( "Ali Abbas", "short Boy", "2 years", "Yersterday's date", {from:accounts[1]})
+instance2.owner().then(value=>value.toString())
+instance2.viewCV().then(value=>value.toString())
+
+instance2.linkToPrev("0x90d95B447544B05AAF5b695e26D572822B077DA5");
+instance2.prevCV()
+
+
+
+
+
+// All Accounts
+let accounts = await web3.eth.getAccounts()
+

@@ -1,0 +1,54 @@
+.MuiDataGrid-cell {
+  color: white !important;
+}
+
+.MuiDataGrid-iconSeparator {
+  color: white !important;
+}
+
+.MuiDataGrid-columnHeader {
+  color: yellow !important;
+}
+
+.MuiDataGrid-columnHeaderCheckbox {
+  color: white !important;
+}
+
+.MuiDataGrid-menuIconButton {
+  color: white !important;
+}
+
+.MuiDataGrid-checkboxInput {
+  color: white !important;
+}
+
+.MuiDataGrid-footerContainer {
+  color: white !important;
+}
+
+.css-levciy-MuiTablePagination-displayedRows {
+  color: yellow;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  color: yellow !important;
+}
+
+.css-1z4p5c-MuiDataGrid-root
+  .MuiDataGrid-columnHeader:not(.MuiDataGrid-columnHeader--sorted):hover
+  .MuiDataGrid-sortIcon {
+  color: yellow !important;
+}
+
+.ex-header {
+  padding: 70px 0 10px 0;
+}
+
+#NoData {
+  height: 60.7vh;
+}
+
+#NoData h4 {
+  text-align: center;
+  padding-top: 30.35vh;
+}
